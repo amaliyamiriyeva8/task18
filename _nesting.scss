@@ -1,0 +1,621 @@
+
+body{
+    padding: $box-padding;
+    margin: $box-margin;
+}
+.div1{
+    width: $width;
+    background-image: $url;
+   display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   background-size: $cover;
+   background-position: $center;
+   flex-direction:$flex-direction;
+
+}
+.div1{
+    .div2{
+        display: $display;
+        align-items: $align-items;
+        justify-content: $justify-content;
+        flex-direction:$flex-direction;
+        text-align: $center;
+        width: $width1;
+        padding: $padding1;
+        
+        h1{
+            font-family: $family;
+            color: $color;
+            font-size: $font-size;
+        }
+    }
+}
+.seperator{
+    width: $width2;
+    height: $height;
+    border-left: $b-left;  
+    border-bottom:$b-bottom ;  
+    margin-top:$margin-top ;
+}
+nav{
+    width: $width;
+    display: $display;
+    justify-content: $justify-content1;
+    align-items: $center;
+    gap: $gap;
+    padding-top: $padding-top;
+   
+    h2{
+        color:$color;
+        cursor: $cursor;
+        font-size: $font-size1;
+    }
+    ul{ 
+        gap: $gap1;
+        list-style: $none;
+        color: $color;
+        cursor: $cursor;
+        display: $display;
+        .size{
+            color: $chocolate;
+        }
+        li{
+            font-size: $font-size2;
+            margin-right: $margin-right;
+            text-align: $center;
+            display: $inline-block;
+            position: $relative;
+             a{
+        display: $block;
+        padding: $padding2;
+        text-decoration: $text-decloration;
+        text-align: $center;
+        font-size: $font-size2;
+        color: $color1;
+    }
+        }
+
+    }
+   
+}
+ul{
+    li{
+       ul.submenu{
+            flex-direction: $flex-direction;
+            width: $width4;
+            background-color: $color;
+            position: $absolute;
+            display: $none;
+            z-index: $z-index;
+            li{
+                display: $block;
+            }
+            
+    }
+    }
+}
+ul{
+    li{
+        &:hover ul.submenu{
+            display: $block;
+        }
+    }
+}
+ .submit{
+        font-size: $font-size2;
+        border: $width5 $solid $color;
+        width: $width6;
+        color: $color;
+       &:hover{
+        background-color: $color;
+        color: $color1;
+        cursor: $cursor
+       }
+    }
+nav{
+    i{
+        display: $none;
+    }
+}
+nav{
+    li{
+        i{
+            display: $block;
+        }
+    }
+}
+
+.div3{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   gap: $gap2;
+   
+
+   div{
+    width: $width7;
+   }
+}
+.a1{
+    padding: $padding4;
+    background-image: $url1;
+   background-size: $cover;
+   background-position: $center;
+}
+.a2{
+    .mini{
+        width: $width8;
+        background-color: $chocolate;
+        padding: $height1;
+    }
+    p{
+        color: $color2;
+        font-size: $font-size2;
+      
+    }
+    h1{
+        font-family: $familiy1;
+        font-size: $font-size3;
+    }
+}
+.div4{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   background-color: $color3;
+   .div5{
+    margin: $margin2;
+    padding: $padding5;
+    flex-direction: $flex-direction;
+    width: $width9;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   text-align: $center;
+   .mini1{
+    width: $width8;
+    background-color: $chocolate;
+    padding: $height1;
+}
+   h1{
+    font-family: $familiy1;
+    font-size: $font-size3;
+   }
+   p{
+    font-size: $font-size5;
+    color: $color2;
+   }
+   }
+}
+.div7{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   gap: $gap3;
+
+   div{
+    width: $width10;
+    padding: $padding6
+   }
+   
+}
+  .div8{
+    background-image: $url2;
+   background-size: $cover;
+   background-position: $center;
+   }
+   .div9{
+    background-image: $url3;
+   background-size: $cover;
+   background-position: $center;
+   }
+   .div10{
+    background-image: $url4;
+   background-size: $cover;
+   background-position: $center;
+   }
+   .div11{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   
+   .div12{
+    margin: $margin2;
+    padding-top: $padding5;
+    flex-direction: $flex-direction;
+    width: $width9;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   text-align: $center;
+   .mini2{
+    width: $width8;
+    background-color: $chocolate;
+    padding: $height1;
+}
+   h1{
+    font-family: $familiy1;
+    font-size: $font-size3;
+   }
+   }
+}
+.div13{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   gap: $gap3;
+   text-align: $center;
+   
+
+   div{
+    width: $width10;
+    padding: $padding7;
+   }
+}
+  .div14{
+ filter: contrast(50%);
+    background-image: $url5;
+   background-size: $cover;
+   background-position: $center;
+   
+   .enter1{
+    padding: $padding8;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    flex-direction: $flex-direction;
+    h1{
+
+       color: $color1;
+       font-size: $one;
+    }
+    p{  font-size: $two;
+        color: $color1;
+    }
+ 
+   }
+}
+
+
+   .div15{
+    filter: contrast(50%);
+  background-image: $url6;
+   background-size: $cover;
+   background-position: $center;
+   .enter2{
+   
+    padding: $padding8;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    flex-direction: $flex-direction;
+    h1{
+
+        color: $color1;
+        font-size: $one;
+     }
+     p{  font-size: $two;
+         color: $color1;
+     }
+}
+   }
+   .div16{
+      filter: contrast(50%);
+      background-image: $url7;
+      background-size: $cover;
+      background-position: $center;
+   .enter3{
+    flex-direction: $flex-direction;
+    padding: $padding8;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    h1{
+
+        color: $color1;
+        font-size: $one;
+     }
+     p{  font-size: $two;
+         color: $color1;
+     }
+}
+ }
+ .div17{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   
+   .div18{
+    margin: $margin2;
+    padding-top: $padding5;
+    flex-direction: $flex-direction;
+    width: $width9;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   text-align: $center;
+   .mini3{
+    width: $width8;
+    background-color: $chocolate;
+    padding: $height1;
+}
+   h1{
+    font-family: $familiy1;
+    font-size: $font-size3;
+   }
+   }
+}
+.div20{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   background-color: $color3;
+   .div21{
+    margin: $margin2;
+    padding: $padding5;
+    flex-direction: $flex-direction;
+    width: $width9;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   
+   .mini4{
+    width: $width8;
+    background-color: $chocolate;
+    padding: $height1;
+}
+   h1{
+    font-family: $familiy1;
+    font-size: $font-size3;
+   }
+   p{
+    font-size: $font-size5;
+    color: $color2;
+   }
+   
+   }
+}
+.div22{
+    width: $width;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   
+   .div23{
+    margin: $margin2;
+    padding-top: $padding5;
+    flex-direction: $flex-direction;
+    width: $width9;
+    display: $display;
+   align-items: $align-items;
+   justify-content: $justify-content;
+   text-align: $center;
+   .mini5{
+    width: $width8;
+    background-color: $chocolate;
+    padding: $height1;
+}
+   h1{
+    font-family: $familiy1;
+    font-size: $font-size3;
+   }
+   }
+}
+.div24{
+    width: $width;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    gap: $gap3;
+   div{
+    width: $width7;
+   }
+}
+.div25{
+    width: $width;
+    padding: $padding4;
+    .half{
+        padding: $padding10;
+        background-image: $url1;
+        background-size: $cover;
+        background-position: $center;
+    }
+    .past{
+        
+          h1{
+            font-family: $familiy1;
+            font-size: $font-size1;
+           }
+           p{
+            font-size: $font-size2;
+            color: $color2;
+           }
+           h2{
+            font-size: $font-size2;
+            color: $bg-color;
+           }
+           .submit1{
+            font-size: $font-size2;
+            color: $color;
+            background-color: $chocolate;
+            padding: $padding11;
+            width: $padding5;
+            text-align: $center;
+        }
+    }
+}
+.div26{
+   
+    padding: $padding4;
+    .half1{
+        padding: $padding10;
+        background-image: $url1;
+        background-size: $cover;
+        background-position: $center;
+    }
+    .past1{
+        
+          h1{
+            font-family: $familiy1;
+            font-size: $font-size1;
+           }
+           p{
+            font-size: $font-size2;
+            color: $color2;
+           }
+           h2{
+            font-size: $font-size2;
+            color: $bg-color;
+           }
+           .submit1{
+            width: $padding5;
+            font-size: $font-size2;
+            color: $color;
+            background-color: $chocolate;
+            padding: $padding11;
+            text-align: $center;
+        }
+    }
+}
+.div27{
+    background-color: $color3;
+    width: $width;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    gap: $gap3;
+    div{
+      width: $width10;
+      padding: $padding7;
+    }
+}
+.start{
+    h1{
+    font-size: $font-size1;
+    }
+    p{
+      color: $color2;
+    }
+}
+.start1{
+    h1{
+        font-family: $familiy1;
+        font-size: $font-size2;
+    }
+    h2{
+        font-family:$familiy1 ;
+    }
+    
+}
+.start2{
+    h1{
+        font-size: $font-size1;
+    }
+    p{
+        color: $chocolate;
+        font-size: $font-size2;
+    }
+}
+.end{
+    width: $width;
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $center;
+    background-color: $color2;
+    div{
+        width: $width9;
+        padding: $padding8;
+        text-align: $center;
+        p{
+        color: $color3;
+        font-size: $font-size2;
+        }
+    }
+}
+.value{
+    width: 1170px;
+    padding:10px 160px;
+    flex-wrap: wrap;
+    display: $display;
+   
+    
+    .value1{
+        width: 25%;
+        background-color: $color2;
+    }
+    h3{
+        font-size: $font-size2;
+        font-family: $familiy1;
+        margin: 30px 40px 0 30px;
+    }
+    p{  font-size: $font-size2;
+        margin: 20px 0 0 30px;
+        color: $bg-color;
+    }
+    h4{
+        font-size: $font-size2;
+        margin: 20px 0 0 30px;
+        color: $bg-color;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+@media screen and (max-width:600px)  {
+    nav {
+        width: $width;
+    }
+    nav ul {
+        display: $none;
+    }
+    nav i {
+        display: $display;
+        color: $color;
+        font-size: $font-size1;
+    }
+    .div3{
+        flex-direction: $flex-direction;
+    }
+    .div3 .a1, .a2{
+        width: $width;
+    }
+    .div7{
+        flex-direction: $flex-direction;
+    }
+    .div7 .div8, .div9, .div10{
+        width: $width;
+    }
+    .div13{
+        flex-direction: $flex-direction;
+    }
+     .div24{
+        flex-direction: $flex-direction;
+     }
+     .div25, .div26{
+        width: $width;
+     }
+     .div27{
+        flex-direction: $flex-direction;
+     }
+     .start, .start1, .start2{
+        width: $width;
+     }
+     .value{
+        flex-direction: $flex-direction;
+        flex-wrap: $wrap;
+     }
+     .value1{
+        width: 100%;
+     }
+}
