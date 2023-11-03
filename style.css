@@ -12,6 +12,9 @@ body {
   background-size: cover;
   background-position: center;
   flex-direction: column;
+  padding-bottom: 200px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 }
 
 .div1 .div2 {
@@ -21,20 +24,12 @@ body {
   flex-direction: column;
   text-align: center;
   width: 500px;
-  padding: 245px;
+  padding: 150px 0px;
 }
 .div1 .div2 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   font-size: 75px;
-}
-
-.seperator {
-  width: 0;
-  height: 0;
-  border-left: 99vw solid transparent;
-  border-bottom: 14.9vw solid white;
-  margin-top: -14.8vw;
 }
 
 nav {
@@ -113,18 +108,32 @@ nav li i {
   display: block;
 }
 
-.div3 {
+.item-1 {
   width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 170px;
+  align-items: center;
+  padding: 100px 0px;
+  background-color: aliceblue;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  -webkit-clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
+          clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
 }
-.div3 div {
-  width: 500px;
+.item-1 .div3 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.item-1 .div3 div {
+  width: 45%;
 }
 
 .a1 {
+  width: 45%;
+  padding: 50px 0px;
   padding: 160px 25px;
   background-image: url("https://preview.colorlib.com/theme/gourmet/img/hero_1.jpg.webp");
   background-size: cover;
@@ -151,6 +160,10 @@ nav li i {
   align-items: center;
   justify-content: center;
   background-color: rgb(244, 241, 241);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  -webkit-clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
+          clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
 }
 .div4 .div5 {
   margin: 30px;
@@ -182,6 +195,7 @@ nav li i {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  padding: 50px 0px;
 }
 .div7 div {
   width: 300px;
@@ -189,50 +203,55 @@ nav li i {
 }
 
 .div8 {
-  background-image: url("https://cdn.shopify.com/s/files/1/0355/1805/files/props-backgrounds-food-photography-09.jpg?v=1589312502");
+  width: 30%;
+  height: auto;
+  background-image: url("https://preview.colorlib.com/theme/gourmet/img/dishes_3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .div9 {
+  width: 30%;
+  height: auto;
   background-image: url("https://foodphotographyacademy.co/wp-content/uploads/2018/07/Vinyl-Food-Photography-Backgrounds-3-660x990.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .div10 {
+  width: 30%;
+  height: auto;
   background-image: url("https://preview.colorlib.com/theme/gourmet/img/dishes_3.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.div11 {
+.fine {
+  width: 100%;
+}
+.fine .div11 {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.div11 .div12 {
-  margin: 30px;
-  padding-top: 150px;
+.fine .div11 .div12 {
   flex-direction: column;
-  width: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.div11 .div12 .mini2 {
+.fine .div11 .div12 .mini2 {
   width: 18%;
   background-color: chocolate;
   padding: 1px;
 }
-.div11 .div12 h1 {
+.fine .div11 .div12 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 49px;
 }
-
-.div13 {
+.fine .div13 {
   width: 100%;
   display: flex;
   align-items: center;
@@ -240,73 +259,70 @@ nav li i {
   gap: 30px;
   text-align: center;
 }
-.div13 div {
+.fine .div13 div {
   width: 300px;
   padding: 300px 60px;
 }
-
-.div14 {
+.fine .div14 {
   filter: contrast(50%);
   background-image: url("https://cdn.shopify.com/s/files/1/0355/1805/files/props-backgrounds-food-photography-09.jpg?v=1589312502");
   background-size: cover;
   background-position: center;
 }
-.div14 .enter1 {
+.fine .div14 .enter1 {
   padding: 30px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.div14 .enter1 h1 {
+.fine .div14 .enter1 h1 {
   color: rgb(4, 4, 4);
   font-size: 40px;
 }
-.div14 .enter1 p {
+.fine .div14 .enter1 p {
   font-size: 36px;
   color: rgb(4, 4, 4);
 }
-
-.div15 {
+.fine .div15 {
   filter: contrast(50%);
   background-image: url("https://foodphotographyacademy.co/wp-content/uploads/2018/07/Vinyl-Food-Photography-Backgrounds-3-660x990.jpg");
   background-size: cover;
   background-position: center;
 }
-.div15 .enter2 {
+.fine .div15 .enter2 {
   padding: 30px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.div15 .enter2 h1 {
+.fine .div15 .enter2 h1 {
   color: rgb(4, 4, 4);
   font-size: 40px;
 }
-.div15 .enter2 p {
+.fine .div15 .enter2 p {
   font-size: 36px;
   color: rgb(4, 4, 4);
 }
-
-.div16 {
+.fine .div16 {
   filter: contrast(50%);
   background-image: url("https://preview.colorlib.com/theme/gourmet/img/dishes_3.jpg");
   background-size: cover;
   background-position: center;
 }
-.div16 .enter3 {
+.fine .div16 .enter3 {
   flex-direction: column;
   padding: 30px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.div16 .enter3 h1 {
+.fine .div16 .enter3 h1 {
   color: rgb(4, 4, 4);
   font-size: 40px;
 }
-.div16 .enter3 p {
+.fine .div16 .enter3 p {
   font-size: 36px;
   color: rgb(4, 4, 4);
 }
@@ -318,7 +334,6 @@ nav li i {
   justify-content: center;
 }
 .div17 .div18 {
-  margin: 30px;
   padding-top: 150px;
   flex-direction: column;
   width: 800px;
@@ -343,6 +358,10 @@ nav li i {
   align-items: center;
   justify-content: center;
   background-color: rgb(244, 241, 241);
+  padding-top: 250px;
+  padding-bottom: 250px;
+  -webkit-clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
+          clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
 }
 .div20 .div21 {
   margin: 30px;
@@ -471,13 +490,18 @@ nav li i {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  padding: 100px 0px;
 }
-.div27 div {
-  width: 300px;
-  padding: 300px 60px;
+.div27 .color {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.start {
+  width: 30%;
+}
 .start h1 {
   font-size: 33px;
 }
@@ -485,6 +509,9 @@ nav li i {
   color: rgb(196, 193, 193);
 }
 
+.start1 {
+  width: 30%;
+}
 .start1 h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 17px;
@@ -493,6 +520,9 @@ nav li i {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.start2 {
+  width: 30%;
+}
 .start2 h1 {
   font-size: 33px;
 }
@@ -518,38 +548,47 @@ nav li i {
   font-size: 17px;
 }
 
-.value {
-  width: 1170px;
-  padding: 10px 160px;
+.euro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.euro .value {
+  width: 80%;
+  padding: 130px 0px;
   flex-wrap: wrap;
   display: flex;
 }
-.value .value1 {
+.euro .value .value1 {
   width: 25%;
   background-color: rgb(196, 193, 193);
 }
-.value h3 {
+.euro .value h3 {
   font-size: 17px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 30px 40px 0 30px;
 }
-.value p {
+.euro .value p {
   font-size: 17px;
   margin: 20px 0 0 30px;
   color: gray;
 }
-.value h4 {
+.euro .value h4 {
   font-size: 17px;
   margin: 20px 0 0 30px;
   color: gray;
 }
-.value img {
+.euro .value img {
   width: 100%;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center center;
      object-position: center center;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 600px) {
@@ -564,6 +603,12 @@ nav li i {
     color: white;
     font-size: 33px;
   }
+  .div1 {
+    width: 100%;
+  }
+  .div1 .div2 {
+    width: 100%;
+  }
   .div3 {
     flex-direction: column;
   }
@@ -573,7 +618,7 @@ nav li i {
   .div7 {
     flex-direction: column;
   }
-  .div7 .div8, .div9, .div10 {
+  .div7, .div8, .div9, .div10 {
     width: 100%;
   }
   .div13 {
@@ -586,16 +631,30 @@ nav li i {
     width: 100%;
   }
   .div27 {
+    width: 100%;
+  }
+  .div27 .color {
+    width: 100%;
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .start, .start1, .start2 {
     width: 100%;
   }
-  .value {
+  .euro {
+    width: 100%;
+  }
+  .euro .value {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 80%;
   }
-  .value1 {
+  .euro .value .value1 {
     width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -12,7 +12,8 @@ body{
    background-size: $cover;
    background-position: $center;
    flex-direction:$flex-direction;
-
+   padding-bottom: 200px;
+   clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 }
 .div1{
     .div2{
@@ -22,7 +23,7 @@ body{
         flex-direction:$flex-direction;
         text-align: $center;
         width: $width1;
-        padding: $padding1;
+        padding: 150px 0px;
         
         h1{
             font-family: $family;
@@ -31,13 +32,7 @@ body{
         }
     }
 }
-.seperator{
-    width: $width2;
-    height: $height;
-    border-left: $b-left;  
-    border-bottom:$b-bottom ;  
-    margin-top:$margin-top ;
-}
+
 nav{
     width: $width;
     display: $display;
@@ -126,19 +121,34 @@ nav{
     }
 }
 
-.div3{
-    width: $width;
-    display: $display;
-   align-items: $align-items;
-   justify-content: $justify-content;
-   gap: $gap2;
-   
+.item-1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  background-color: aliceblue;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
+ 
 
-   div{
-    width: $width7;
-   }
+  
+    .div3{
+       width: 80%;
+       display: flex;
+     justify-content: center;
+      align-items: center;
+      gap: 30px;
+    
+       div{
+        width: 45%;
+       }
+    }
 }
 .a1{
+    width: 45%;
+    padding: 50px 0px;
     padding: $padding4;
     background-image: $url1;
    background-size: $cover;
@@ -166,6 +176,9 @@ nav{
    align-items: $align-items;
    justify-content: $justify-content;
    background-color: $color3;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
    .div5{
     margin: $margin2;
     padding: $padding5;
@@ -196,6 +209,7 @@ nav{
    align-items: $align-items;
    justify-content: $justify-content;
    gap: $gap3;
+   padding: 50px 0px;
 
    div{
     width: $width10;
@@ -204,20 +218,28 @@ nav{
    
 }
   .div8{
-    background-image: $url2;
+    width: 30%;
+    height: auto;
+    background-image: $url4;
    background-size: $cover;
    background-position: $center;
    }
    .div9{
+    width: 30%;
+    height: auto;
     background-image: $url3;
    background-size: $cover;
    background-position: $center;
    }
    .div10{
+    width: 30%;
+    height: auto;
     background-image: $url4;
    background-size: $cover;
    background-position: $center;
    }
+   .fine{
+    width: 100%;
    .div11{
     width: $width;
     display: $display;
@@ -225,10 +247,7 @@ nav{
    justify-content: $justify-content;
    
    .div12{
-    margin: $margin2;
-    padding-top: $padding5;
     flex-direction: $flex-direction;
-    width: $width9;
     display: $display;
    align-items: $align-items;
    justify-content: $justify-content;
@@ -326,14 +345,16 @@ nav{
      }
 }
  }
+}
+
  .div17{
     width: $width;
     display: $display;
    align-items: $align-items;
    justify-content: $justify-content;
    
+   
    .div18{
-    margin: $margin2;
     padding-top: $padding5;
     flex-direction: $flex-direction;
     width: $width9;
@@ -358,6 +379,10 @@ nav{
    align-items: $align-items;
    justify-content: $justify-content;
    background-color: $color3;
+   padding-top: 250px;
+   padding-bottom: 250px;
+   clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
+  
    .div21{
     margin: $margin2;
     padding: $padding5;
@@ -491,13 +516,16 @@ nav{
     display: $display;
     justify-content: $justify-content;
     align-items: $center;
-    gap: $gap3;
-    div{
-      width: $width10;
-      padding: $padding7;
+    padding: 100px 0px;
+    .color{
+     width: 80%;
+     display: $display;
+    justify-content: space-between;
+    align-items: $center;
     }
 }
 .start{
+    width: 30%;
     h1{
     font-size: $font-size1;
     }
@@ -506,6 +534,7 @@ nav{
     }
 }
 .start1{
+    width: 30%;
     h1{
         font-family: $familiy1;
         font-size: $font-size2;
@@ -516,6 +545,7 @@ nav{
     
 }
 .start2{
+    width: 30%;
     h1{
         font-size: $font-size1;
     }
@@ -540,13 +570,17 @@ nav{
         }
     }
 }
+.euro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 .value{
-    width: 1170px;
-    padding:10px 160px;
+    width: 80%;
+    padding: 130px 0px;
     flex-wrap: wrap;
     display: $display;
-   
-    
     .value1{
         width: 25%;
         background-color: $color2;
@@ -570,7 +604,11 @@ nav{
         height: 200px;
         object-fit: cover;
         object-position: center center;
+        background-position: center;
+        background-size: cover;
+
     }
+}
 }
 @media screen and (max-width:600px)  {
     nav {
@@ -584,6 +622,13 @@ nav{
         color: $color;
         font-size: $font-size1;
     }
+    .div1{
+        width: 100%;
+        .div2{
+            width: 100%;
+
+        }
+    }
     .div3{
         flex-direction: $flex-direction;
     }
@@ -593,7 +638,7 @@ nav{
     .div7{
         flex-direction: $flex-direction;
     }
-    .div7 .div8, .div9, .div10{
+    .div7, .div8, .div9, .div10{
         width: $width;
     }
     .div13{
@@ -606,16 +651,33 @@ nav{
         width: $width;
      }
      .div27{
-        flex-direction: $flex-direction;
+        width: 100%;
+            .color{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+            }
+        
+        
      }
      .start, .start1, .start2{
         width: $width;
      }
-     .value{
-        flex-direction: $flex-direction;
-        flex-wrap: $wrap;
-     }
-     .value1{
-        width: 100%;
+     .euro{
+         width: 100%;
+            .value{
+                display: flex;
+                flex-direction: $flex-direction;
+                flex-wrap: $wrap;
+                width: 80%;
+                .value1{
+                    width: 100%;
+                    background-position: center;
+                    background-size: cover;
+                    height: 200px;
+                 }
+            }
+         
      }
 }
