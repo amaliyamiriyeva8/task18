@@ -114,7 +114,6 @@ nav li i {
   justify-content: center;
   align-items: center;
   padding: 100px 0px;
-  background-color: aliceblue;
   padding-top: 250px;
   padding-bottom: 250px;
   -webkit-clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
@@ -264,7 +263,6 @@ nav li i {
   padding: 300px 60px;
 }
 .fine .div14 {
-  filter: contrast(50%);
   background-image: url("https://cdn.shopify.com/s/files/1/0355/1805/files/props-backgrounds-food-photography-09.jpg?v=1589312502");
   background-size: cover;
   background-position: center;
@@ -276,19 +274,27 @@ nav li i {
   align-items: center;
   flex-direction: column;
 }
+.fine .div14 .enter1 img {
+  transition: all 1s ease;
+  scale: 1;
+}
+.fine .div14 .enter1 img:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
 .fine .div14 .enter1 h1 {
-  color: rgb(4, 4, 4);
+  color: white;
   font-size: 40px;
 }
 .fine .div14 .enter1 p {
   font-size: 36px;
-  color: rgb(4, 4, 4);
+  color: white;
 }
 .fine .div15 {
-  filter: contrast(50%);
   background-image: url("https://foodphotographyacademy.co/wp-content/uploads/2018/07/Vinyl-Food-Photography-Backgrounds-3-660x990.jpg");
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 .fine .div15 .enter2 {
   padding: 30px 10px;
@@ -298,15 +304,14 @@ nav li i {
   flex-direction: column;
 }
 .fine .div15 .enter2 h1 {
-  color: rgb(4, 4, 4);
+  color: white;
   font-size: 40px;
 }
 .fine .div15 .enter2 p {
   font-size: 36px;
-  color: rgb(4, 4, 4);
+  color: white;
 }
 .fine .div16 {
-  filter: contrast(50%);
   background-image: url("https://preview.colorlib.com/theme/gourmet/img/dishes_3.jpg");
   background-size: cover;
   background-position: center;
@@ -319,12 +324,12 @@ nav li i {
   align-items: center;
 }
 .fine .div16 .enter3 h1 {
-  color: rgb(4, 4, 4);
+  color: white;
   font-size: 40px;
 }
 .fine .div16 .enter3 p {
   font-size: 36px;
-  color: rgb(4, 4, 4);
+  color: white;
 }
 
 .div17 {

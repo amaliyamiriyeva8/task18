@@ -127,7 +127,6 @@ nav{
   justify-content: center;
   align-items: center;
   padding: 100px 0px;
-  background-color: aliceblue;
   padding-top: 250px;
   padding-bottom: 250px;
   clip-path: polygon(100% 0, 100% 70%, 0 99%, 0 28%);
@@ -278,24 +277,32 @@ nav{
    }
 }
   .div14{
- filter: contrast(50%);
     background-image: $url5;
    background-size: $cover;
    background-position: $center;
-   
    .enter1{
     padding: $padding8;
     display: $display;
     justify-content: $justify-content;
     align-items: $center;
     flex-direction: $flex-direction;
+    img{
+    transition: all 1s ease;
+    scale: 1;
+    &:hover{
+        scale: 1.1;
+        cursor: pointer;
+    
+    }
+    }
+   
     h1{
 
-       color: $color1;
+      color: white;
        font-size: $one;
     }
     p{  font-size: $two;
-        color: $color1;
+       color: white;
     }
  
    }
@@ -303,12 +310,12 @@ nav{
 
 
    .div15{
-    filter: contrast(50%);
   background-image: $url6;
    background-size: $cover;
    background-position: $center;
+   overflow: hidden;
    .enter2{
-   
+    
     padding: $padding8;
     display: $display;
     justify-content: $justify-content;
@@ -316,16 +323,15 @@ nav{
     flex-direction: $flex-direction;
     h1{
 
-        color: $color1;
+        color: white;
         font-size: $one;
      }
      p{  font-size: $two;
-         color: $color1;
+         color: white;
      }
 }
    }
    .div16{
-      filter: contrast(50%);
       background-image: $url7;
       background-size: $cover;
       background-position: $center;
@@ -337,11 +343,11 @@ nav{
     align-items: $center;
     h1{
 
-        color: $color1;
+       color: white;
         font-size: $one;
      }
      p{  font-size: $two;
-         color: $color1;
+         color: white;
      }
 }
  }
